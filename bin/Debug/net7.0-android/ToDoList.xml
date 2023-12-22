@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoList</name>
+    </assembly>
+    <members>
+        <member name="F:ToDoList.ViewModel.DetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:ToDoList.ViewModel.DetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.DetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ToDoList.ViewModel.DetailViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.DetailViewModel.Text">
+            <inheritdoc cref="F:ToDoList.ViewModel.DetailViewModel.text"/>
+        </member>
+        <member name="F:ToDoList.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ToDoList.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ToDoList.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:ToDoList.ViewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ToDoList.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ToDoList.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:ToDoList.ViewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:ToDoList.ViewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ToDoList.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="P:ToDoList.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:ToDoList.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:ToDoList.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:ToDoList.ViewModel.MainViewModel.text"/>
+        </member>
+    </members>
+</doc>
